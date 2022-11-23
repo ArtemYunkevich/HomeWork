@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE chair>
+<chair brand="Zombie" model="Viking 5 Aero" type="gaming chair">
+   <title>
+      Zombie Viking 5 Aero
+   </title>
+   <categories>
+    <basic_parameters>
+      <parameter title="Тип">Компьютерное кресло</parameter>
+      <parameter title="Назначение">Игровое</parameter>
+      <parameter title="Материал">Искусственная кожа</parameter>
+    </basic_parameters>
+    <construction_features>
+      <parameter title="Регулировка подлокотников">Имеется</parameter>
+      <parameter title="Регулировка поясничного упора">Имеется</parameter>
+      <parameter title="Регулировка глубины сиденья">Отсутствует</parameter>
+      <parameter title="Фиксация в наклонном положении">Отсутствует</parameter>
+    </construction_features>
+    <sizing_features>
+      <parameter title="Ширина" unit="см">70</parameter>
+      <parameter title="Глубина" unit="см">70</parameter>
+      <parameter title="Высота (нижний уровень)" unit="см">124</parameter>
+      <parameter title="Высота (верхний уровень)" unit="см">136</parameter>
+      <parameter title="Вес" unit="кг">22.5</parameter>
+    </sizing_features>
+   </categories>
+   <instructions>
+     <step>
+        Заказать кресло в онлайн-магазине. 
+     </step>
+     <step>
+        Дождаться доставки. 
+     </step>
+     <step>
+        Произвести оплату.
+     </step>
+     <step>
+        Распаковать кресло.
+     </step>
+     <step>
+        Собрать кресло.
+     </step>
+   </instructions>
+   <output>
+   Кресло готово к эксплуатации.
+   </output>
+</chair>
