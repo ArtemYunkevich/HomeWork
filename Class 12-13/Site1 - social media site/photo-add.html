@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новый пост</title>
+</head>
+
+<body>
+    <header align="center">
+        <img src="./logo.png" width=500 alt="Здесь должно быть лого"><br>
+        <a href="./feed.html">На ленту новостей</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="./index.html">Выйти</a>
+        <hr>
+    </header>
+    <main>
+        <h3 align="center">Создать новый пост</h3>
+        <form action="./feed.html">
+            <textarea name="textbox" placeholder="Текст сообщения" id="textbox" cols="75" rows="10"></textarea><br>
+            <label for="upload">Прикрепить фото/видео к посту</label>&nbsp;<img src="./posts/question_icon.png" width=15 alt="Вопросительный знак" title="Допустимы форматы png, jpg и mp4">&nbsp;&nbsp;&nbsp;
+            <input type="file" name="upload" id="upload" accept="image/png, image/jpg, video/mp4" required><br>
+            <input type="submit" name="post1" id="submit1" value="Опубликовать">
+        </form>
+    </main>
+</body>
+</html>
