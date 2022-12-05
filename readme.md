@@ -14,3 +14,5 @@
    >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2012-13/Site2%20-%20language%20study%20platform) 
 1. Занятие 12-13: Формы (пока в процессе, будет обновляться).
    >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2012-13/%D1%84%D0%BE%D1%80%D0%BC%D1%8B) 
+1. Занятие 14: Титульник (прототип :)).
+   >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2014) 
