@@ -1,0 +1,37 @@
+div.page {
+    border: 3px solid black; 
+    height: 297mm; width: 210mm; 
+    padding: 20mm 10mm 20mm 30mm; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 14pt; 
+    text-align: center; 
+    line-height: 1.5; 
+    margin-left: 80mm;
+}
+h2.Uheader {
+    font-weight: bold; 
+    font-size: 100%; 
+}
+div.subtitle {
+    margin-top: 100mm;
+}
+h1.title {
+    font-weight: 100; 
+    font-size: 100%; 
+    font-weight: bold; 
+    display: inline;
+}
+div.signature {
+    margin-top: 60mm; 
+    margin-left: 94mm; 
+    text-align: left;
+}
+p.city {
+    margin-top: 40mm;
+}
+span.line {
+    text-decoration: underline;
+}
+body {
+    background-color: rgba(22, 22, 22, 0.918);
+}
