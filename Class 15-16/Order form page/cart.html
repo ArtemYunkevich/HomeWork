@@ -6,94 +6,112 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Форма заказа</title>
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
     <header>
-    </header>
-    <nav>
-        <div class="level0"><span class="menutext">Меню</span>
-            <div class="level1_1">Бытовая техника
-                <ul class="level2_1">
-                    <li class="level2item">Стиральные машины</li>
-                    <li class="level2item">Пылесосы</li>
-                    <li class="level2item">Швейные, вышивальные машины</li>
-                    <li class="level2item">Утюги</li>
-                    <li class="level2item">Электровеники</li>
-                    <li class="level2item">Сушилки для обуви</li>
-                </ul>
-            </div>
-            <div class="level1_2">Техника для кухни
-                <ul class="level2_2">
-                    <li class="level2item">Холодильники</li>
-                    <li class="level2item">Кухонные плиты</li>
-                    <li class="level2item">Морозильники</li>
-                    <li class="level2item">Настольные плиты</li>
-                    <li class="level2item">Ростеры, мини-печи</li>
-                    <li class="level2item">Вытяжки</li>
-                    <li class="level2item">Микроволновые печи</li>
-                </ul>
-            </div>
-            <div class="level1_3">Компьютерная техника
-                <ul class="level2_3">
-                    <li class="level2item">Ноутбуки</li>
-                    <li class="level2item">Планшеты</li>
-                    <li class="level2item">Компьютеры, моноблоки</li>
-                    <li class="level2item">Игровые приставки</li>
-                    <li class="level2item">Серверное оборудование</li>
-                </ul>
-            </div>
+        <div class="header">
         </div>
-        <div class="cart">Корзина</div>
-    </nav>
-    <div class="orderform"> <span class="ordertitle">Оформить заказ</span>
-        <form action="http://activepads.com:8082/formDetector">
-            <label for="inputname">Имя:</label>
-            <input type="text" name="inputname" id="inputname" required><br>
-            <label for="inputsname">Фамилия:</label>
-            <input type="text" name="inputsname" id="inputsname" required><br>
-            <label for="inputemail">Электронная почта:</label>
-            <input type="email" name="inputemail" id="inputemail" required><br>
-            <div class="delivery">
-                <p>Выберите способ доставки:</p>
-                <label>
-                    <input type="radio" name="delivery" value="var1">Самовывозом по адресу
-                    <label class="map">
-                        <input type="checkbox" name="mapbutton">
-                        <span id="mapbutton">Адрес
-                        </span>
-                        <div class="mapframe">
-                            <div style="position:relative;overflow:hidden;"><a
-                                    href="https://yandex.by/maps/157/minsk/?utm_medium=mapframe&utm_source=maps"
-                                    style="color:#eee;font-size:12px;position:absolute;top:0px;">Минск</a><a
-                                    href="https://yandex.by/maps/157/minsk/house/Zk4YcwdgTkcPQFtpfXR1d3hrZQ==/?ll=27.504707%2C53.846594&utm_medium=mapframe&utm_source=maps&z=16.41"
-                                    style="color:#eee;font-size:12px;position:absolute;top:14px;">Улица Корженевского,
-                                    25 —
-                                    Яндекс Карты</a><iframe src="https://yandex.by/map-widget/v1/-/CCUnQ0TNWA"
-                                    width="500" height="300" frameborder="1" allowfullscreen="true"
-                                    style="position:relative;"></iframe>
-                            </div>
-                        </div>
-                    </label>
-                </label><br>
-                <label class="address">
-                    <input class="var2" type="radio" name="delivery" value="var2">Курьером по Минску <br>
-                    <textarea name="inputaddress" id="inputaddress" cols="50" rows="2"
-                        placeholder="Укажите адрес доставки"></textarea>
-                </label>
+        <nav>
+            <div class="level0"><span class="menutext">Меню</span>
+                <div class="level1_1">Бытовая техника
+                    <ul class="level2_1">
+                        <li class="level2item">Стиральные машины</li>
+                        <li class="level2item">Пылесосы</li>
+                        <li class="level2item">Швейные, вышивальные машины</li>
+                        <li class="level2item">Утюги</li>
+                        <li class="level2item">Электровеники</li>
+                        <li class="level2item">Сушилки для обуви</li>
+                    </ul>
+                </div>
+                <div class="level1_2">Техника для кухни
+                    <ul class="level2_2">
+                        <li class="level2item">Холодильники</li>
+                        <li class="level2item">Кухонные плиты</li>
+                        <li class="level2item">Морозильники</li>
+                        <li class="level2item">Настольные плиты</li>
+                        <li class="level2item">Ростеры, мини-печи</li>
+                        <li class="level2item">Вытяжки</li>
+                        <li class="level2item">Микроволновые печи</li>
+                    </ul>
+                </div>
+                <div class="level1_3">Компьютерная техника
+                    <ul class="level2_3">
+                        <li class="level2item">Ноутбуки</li>
+                        <li class="level2item">Планшеты</li>
+                        <li class="level2item">Компьютеры, моноблоки</li>
+                        <li class="level2item">Игровые приставки</li>
+                        <li class="level2item">Серверное оборудование</li>
+                    </ul>
+                </div>
             </div>
-            <label id="commentlabel" for="comment">Комментарии к заказу<br>
-                <textarea name="comment" id="comment" placeholder="Комментарии к заказу" cols="50" rows="10"></textarea>
-            </label><br><br>
-            <div class="divcheck">
+            <div class="cart"><span>Корзина</span></div>
+        </nav>
+    </header>
+    <main>
+        <div class="orderform"> <span class="ordertitle">Оформить заказ</span>
+            <form action="http://activepads.com:8082/formDetector">
+                <div class="formblock1">
+                    <label for="inputname">Имя:</label><br>
+                    <label for="inputsname">Фамилия:</label><br>
+                    <label for="inputtel">Моб. телефон:</label><br>
+                    <label for="inputemail">Электронная почта:</label>
+                </div>
+                <div class="formblock2">
+                    <input type="text" name="inputname" id="inputname" required><br>
+                    <input type="text" name="inputsname" id="inputsname" required><br>
+                    <input type="tel" name="inputtel" id="inputtel" required><br>
+                    <input type="email" name="inputemail" id="inputemail" required><br>
+                </div>
+                <div class="delivery">
+                    <p>Выберите способ доставки:</p>
+                    <label>
+                        <input type="radio" name="delivery" value="var1" checked>Самовывозом по адресу
+                        <label class="map">
+                            <input type="checkbox" name="mapbutton">
+                            <span id="mapbutton">Адрес
+                            </span>
+                            <div class="mapframe">
+                                <div style="position:relative;overflow:hidden;"><a
+                                        href="https://yandex.by/maps/157/minsk/?utm_medium=mapframe&utm_source=maps"
+                                        style="color:#eee;font-size:12px;position:absolute;top:0px;">Минск</a><a
+                                        href="https://yandex.by/maps/157/minsk/house/Zk4YcwdgTkcPQFtpfXR1d3hrZQ==/?ll=27.504707%2C53.846594&utm_medium=mapframe&utm_source=maps&z=16.41"
+                                        style="color:#eee;font-size:12px;position:absolute;top:14px;">Улица
+                                        Корженевского,
+                                        25 —
+                                        Яндекс Карты</a><iframe src="https://yandex.by/map-widget/v1/-/CCUnQ0TNWA"
+                                        width="500" height="300" frameborder="1" allowfullscreen="true"
+                                        style="position:relative;"></iframe>
+                                </div>
+                            </div>
+                        </label>
+                    </label><br>
+                    <label class="address">
+                        <input class="var2" type="radio" name="delivery" value="var2">Курьером по Минску <br>
+                        <textarea name="inputaddress" id="inputaddress" cols="50" rows="2"
+                            placeholder="Укажите адрес доставки"></textarea>
+                    </label>
+                </div>
+                <label id="commentlabel" for="comment">Комментарии к заказу<br>
+                    <textarea name="comment" id="comment" placeholder="Комментарии к заказу" cols="50"
+                        rows="10"></textarea>
+                </label><br><br>
                 <input type="checkbox" id="inputcheck" name="check" value="check" required>
                 <label for="check">Я прочитал и согласен с условиями доставки</label><br><br>
-                <input type="submit" name="submit" id="submit" value="Оформить заказ">
-            </div>
-        </form>
-    </div>
+                <input type="submit" name="submit" id="submit1" value="Оформить заказ" disabled>
+                <input type="submit" name="submit" id="submit2" value="Оформить заказ">
+            </form>
+        </div>
+    </main>
     <footer>
+        <span>Контакты</span>
+        <ul>
+            <li>Время работы: 09:00 - 20:00<br>Выходной: суббота, воскресенье</li>
+            <li>Адрес:<address> г. Минск, ул. Корженевского, 25</address></li>
+            <li>Контактный номер: + 375 29 220-79-00</li>
+        </ul>
+
     </footer>
 </body>
 
