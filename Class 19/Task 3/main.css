@@ -1,0 +1,39 @@
+label {
+    display: inline-block;
+}
+
+#check1 {
+    display: none;
+}
+
+span {
+    display: block;
+    border: 1px solid saddlebrown;
+    padding: 10px 10px 10px 40px;
+}
+
+.empty {
+    display: inline-block;
+    border: 1px solid black;
+    position: absolute;
+    left: 20px;
+    top: 19px;
+    height: 15px;
+    width: 15px;
+}
+.marked {
+    display: inline-block;
+    border: 1px solid black;
+    position: absolute;
+    left: 20px;
+    top: 19px;
+    height: 15px;
+    width: 15px;
+    content: "";
+    background-image: url(./checkmark.png);
+    background-size: cover;
+    display: none;
+}
+label :checked~.marked {
+    display: block;
+}

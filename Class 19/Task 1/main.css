@@ -1,0 +1,10 @@
+div {
+    margin: 100px 400px;
+    border: 1px solid black;
+    width: calc(100% - 785px);
+    height: 400px;
+    background-image: url(./sun.png), url(sea.jpg), url(./sky.jpg);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: right top, bottom, top;
+    background-size: 15%, 100%, 100%;
+}

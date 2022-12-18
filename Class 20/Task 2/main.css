@@ -1,0 +1,19 @@
+div {
+    border: 1px solid black;
+    display: inline-block;
+    padding: 100px;
+    margin: 100px 550px;
+}
+
+.fan {
+    height: 300px;
+}
+.fan:hover {
+    transform: rotate(1080deg);
+    transition: all 10s ease-out;
+    
+}
+.fan:not(:hover) {
+    transform: rotate(0deg);
+    transition: all 10s ease-out;
+}

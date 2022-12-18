@@ -1,0 +1,28 @@
+.container {
+    height: 100px;
+    margin: 100px;
+    border: 1px solid black;
+}
+
+#trigger {
+    display: none;
+}
+
+label {
+    position: relative;
+}
+
+img {
+    height: 100px;
+    position: absolute;
+}
+input:checked~.ballR {
+    position: absolute;
+    transform: translateX(1282px) rotate(720deg);
+    transition: all 10s ease-out 0s;
+}
+input:not(:checked)~.ballR {
+    position: absolute;
+    transform: translateX(0px) rotate(-720deg);
+    transition: all 10s ease-out 0s;
+}
