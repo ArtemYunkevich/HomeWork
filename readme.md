@@ -20,5 +20,17 @@
    >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2015-16/Modal%20Window)
 1. Занятие 15: Полоса загрузки.
    >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2015-16/Progress%20bar)
-1. Занятие 15: Страница формы заказа (to be updated...).
+1. Занятие 15: Страница формы заказа (updated).
    >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2015-16/Order%20form%20page)
+1. Занятие 19: Пляж (работа с фоном).
+   >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2019/Task%201)
+1. Занятие 19: Кнопка "мне нравится".
+   >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2019/Task%202)
+1. Занятие 19: Кастомный чекбокс.
+   >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2019/Task%203)
+1. Занятие 19: Шапка сайта музыкальных инструментов.
+   >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2019/Task%204)
+1. Занятие 20: Анимация с мячом.
+   >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2020/Task%201)
+1. Занятие 20: Анимация с вентилятором.
+   >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2020/Task%202)
