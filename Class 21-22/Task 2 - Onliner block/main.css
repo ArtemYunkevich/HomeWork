@@ -1,0 +1,81 @@
+div {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    height: 969px;
+    display: flex;
+}
+div[class*="block"] {
+    display: inline-block;
+    width: 50%;
+    color: #fff;
+}
+div[class*="flex"] {
+    flex: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.block1 {
+    height: 100%;
+    background: #1b61ce;
+    background-image: url(images/fridge.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.block2 {
+    height: 50%;
+    background: #e3a439;
+    background-image: url(images/tires.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: 60% 60%;
+}
+.block3 {
+    height: 50%;
+    background: #00b2bc;
+    background-image: url(images/vcleaner.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: 35% 80%;    
+}
+.block4 {
+    height: 100%;
+    background: #80c4ef;
+    background-image: url(images/oil.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;  
+}
+.block5 {
+    height: 50%;
+    background: #29736d;
+    background-image: url(images/bcarriage.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: 55% 65%;  
+}
+.block6 {
+    height: 50%;
+    background: #005c9e;
+    background-image: url(images/audio.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: 55% 60%;  
+}
+span {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+}
+.text1 {
+    margin-top: 50px;
+    font-weight: 900;
+    font-size: 20px;
+}
