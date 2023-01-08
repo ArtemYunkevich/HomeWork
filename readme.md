@@ -34,9 +34,15 @@
    >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2020/Task%201)
 1. Занятие 20: Анимация с вентилятором.
    >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2020/Task%202)
+1. Занятие 20: Анимация с Саб-Зиро.
+   >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2020/Task%203)
 1. Занятие 21-22: Адаптивное меню (бургер).
    >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2021-22/Task%201%20-%20Burger%20menu)
 1. Занятие 21-22: Блок из Онлайнера.
    >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2021-22/Task%202%20-%20Onliner%20block)
 1. Занятие 21-22: Страница с кругами.
    >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2021-22/Task%203%20-%20Header)
+1. Занятие 21-22: Макет из Figma.
+   >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2021-22/Task%204%20-%20Figma%20Page)
+1. Занятие 23: Лист газеты.
+   >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2023)
