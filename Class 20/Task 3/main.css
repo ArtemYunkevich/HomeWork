@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    width: 960px;
+    height: 920px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    background-image: url(./back.jpg);
+    background-color: #464644;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    justify-content: end;
+    position: relative;
+}
+.sprite {
+    border: 1px solid black;
+    height: 135px;
+    width: 66px;
+    background-image: url(./sprite.jpg);
+    background-position: 0% 0%;
+    margin: 30px 45px 0px 0px;
+}
+span {
+    font-family: 'Press Start 2P', cursive;
+    color: yellow;
+    font-size: 30px;
+    position: absolute;
+    top: 70px;
+    left: 100px;
+}
+
+.sprite:hover {
+    animation: subzero 0.3s steps(7) infinite alternate;
+}
+@keyframes subzero{
+    100% {
+        background-position: -462px;
+    }
+}
+.selector {
+    position: absolute;
+    top: 636px;
+    left: 490px;
+    width: 104px;
+    height: 128px;
+}
+.frame {
+    width: 100%;
+    height: 100%;
+    border: 3px solid yellow;
+    display: none;
+}
+.selector:hover~.sprite {
+    animation: subzero 0.3s steps(7) infinite alternate;
+}
+.selector:hover .frame {
+    display: block;
+}
+
+
+
+
