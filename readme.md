@@ -20,7 +20,7 @@
    >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2015-16/Modal%20Window)
 1. Занятие 15: Полоса загрузки.
    >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2015-16/Progress%20bar)
-1. Занятие 15: Страница формы заказа (updated).
+1. Занятие 15: Страница формы заказа.
    >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2015-16/Order%20form%20page)
 1. Занятие 19: Пляж (работа с фоном).
    >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2019/Task%201)
@@ -46,3 +46,7 @@
    >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2021-22/Task%204%20-%20Figma%20Page)
 1. Занятие 23: Лист газеты.
    >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2023)
+1. Занятие 24: Сайт сервис-центра по ремонту телефонов (теперь с SCSS).
+   >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2024/Task%201)
+1. Занятие 27: Блок задач по JS (логические и условные выражения).
+   >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2027/HomeWork%20Block%201)
