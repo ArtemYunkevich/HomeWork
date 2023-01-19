@@ -1,0 +1,301 @@
+.heading2 h1 {
+  text-align: center;
+  margin: 50px 0px;
+}
+
+.commentsbox {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.commentsbox div h2 {
+  margin-left: 50px;
+}
+.commentsbox div img {
+  border-radius: 999px;
+  margin-left: 30px;
+}
+.commentsbox div p {
+  display: inline-block;
+  padding: 20px 20px;
+}
+
+.dlist h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+.dlist p {
+  width: calc(100% - 600px);
+  margin-left: 310px;
+}
+.dlist .devices {
+  width: calc(100% - 600px);
+  margin-left: 300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.dlist .devices div {
+  height: 200px;
+}
+.dlist .devices div:nth-child(1) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(images/apple.png);
+  background-size: 240px;
+  background-repeat: no-repeat;
+  background-position: -5% 70%;
+}
+.dlist .devices div:nth-child(1) ul li {
+  position: relative;
+}
+.dlist .devices div:nth-child(1) ul li:first-child {
+  margin-left: 50px;
+  font-weight: 700;
+  font-size: 20px;
+}
+.dlist .devices div:nth-child(1) ul li:not(:first-child) {
+  margin-top: 10px;
+}
+.dlist .devices div:nth-child(1) ul li:not(:first-child)::before {
+  background-image: url(https://api.iconify.design/ph:device-mobile-light.svg);
+  background-size: cover;
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  left: -20px;
+  top: -1px;
+}
+.dlist .devices div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(images/samsung.png);
+  background-size: 240px;
+  background-repeat: no-repeat;
+  background-position: 3% 70%;
+}
+.dlist .devices div:nth-child(2) ul {
+  position: relative;
+  left: 20px;
+}
+.dlist .devices div:nth-child(2) ul li {
+  position: relative;
+}
+.dlist .devices div:nth-child(2) ul li:first-child {
+  margin-left: 50px;
+  font-weight: 700;
+  font-size: 20px;
+}
+.dlist .devices div:nth-child(2) ul li:not(:first-child) {
+  margin-top: 10px;
+}
+.dlist .devices div:nth-child(2) ul li:not(:first-child)::before {
+  background-image: url(https://api.iconify.design/ph:device-mobile-light.svg);
+  background-size: cover;
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  left: -20px;
+  top: -1px;
+}
+.dlist .devices div:nth-child(3) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(images/xiaomi.png);
+  background-size: 240px;
+  background-repeat: no-repeat;
+  background-position: -3% 70%;
+}
+.dlist .devices div:nth-child(3) ul {
+  position: relative;
+  left: -23px;
+}
+.dlist .devices div:nth-child(3) ul li {
+  position: relative;
+}
+.dlist .devices div:nth-child(3) ul li:first-child {
+  margin-left: 50px;
+  font-weight: 700;
+  font-size: 20px;
+}
+.dlist .devices div:nth-child(3) ul li:not(:first-child) {
+  margin-top: 10px;
+}
+.dlist .devices div:nth-child(3) ul li:not(:first-child)::before {
+  background-image: url(https://api.iconify.design/ph:device-mobile-light.svg);
+  background-size: cover;
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  left: -20px;
+  top: -1px;
+}
+.dlist .devices div:nth-child(4) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(images/poco.png);
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position: 7% 70%;
+}
+.dlist .devices div:nth-child(4) ul {
+  position: relative;
+  left: 10px;
+}
+.dlist .devices div:nth-child(4) ul li {
+  position: relative;
+}
+.dlist .devices div:nth-child(4) ul li:first-child {
+  margin-left: 50px;
+  font-weight: 700;
+  font-size: 20px;
+}
+.dlist .devices div:nth-child(4) ul li:not(:first-child) {
+  margin-top: 10px;
+}
+.dlist .devices div:nth-child(4) ul li:not(:first-child)::before {
+  background-image: url(https://api.iconify.design/ph:device-mobile-light.svg);
+  background-size: cover;
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  left: -20px;
+  top: -1px;
+}
+
+.footer {
+  height: 10vh;
+  background-color: #333;
+  color: white;
+  padding: 20px 0px;
+}
+.footer h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.footer div {
+  padding-left: 150px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.footer div address {
+  font-style: normal;
+}
+
+.header {
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-image: url(images/Logo.png);
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: 50% -5%;
+  background-color: #ddd;
+}
+
+.menu a {
+  display: inline-block;
+  width: 200px;
+  padding: 10px 0px;
+  margin: 0px 50px;
+  text-align: center;
+  background-color: rgb(183, 190, 255);
+  border-radius: 30px;
+}
+.menu :link {
+  color: azure;
+}
+.menu :visited {
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+.heading {
+  text-align: center;
+  font-size: 24pt;
+  margin: 30px 0px;
+}
+
+.maintext {
+  height: 15vh;
+  display: flex;
+  justify-content: space-around;
+}
+.maintext p {
+  text-align: center;
+  display: inline-block;
+  width: 610px;
+  height: 94%;
+  border-radius: 30px;
+  padding: 10px 10px;
+  background: #f0e68c;
+  font-size: 11pt;
+}
+
+.services p {
+  text-align: center;
+  margin: 5px 0px 20px 0px;
+}
+.services div {
+  height: 230px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  width: calc(100% - 200px);
+  margin-left: 100px;
+}
+.services div span {
+  position: relative;
+}
+.services div span:nth-child(1)::before {
+  content: "";
+  background-image: url(images/ekran.jpg);
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  background-size: cover;
+  top: -200px;
+  left: -100px;
+}
+.services div span:nth-child(2)::before {
+  content: "";
+  background-image: url(images/micro.jpg);
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  background-size: cover;
+  top: -200px;
+  left: -100px;
+}
+.services div span:nth-child(3)::before {
+  content: "";
+  background-image: url(images/korpus.jpg);
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  background-size: cover;
+  top: -200px;
+  left: -100px;
+}
+
+* {
+  font-family: "Fira Sans", sans-serif;
+}
+
+/*# sourceMappingURL=main.css.map */

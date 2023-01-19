@@ -1,0 +1,17 @@
+.menu {
+    a {
+        display: inline-block;
+        width: 200px;
+        padding: 10px 0px;
+        margin: 0px 50px;
+        text-align: center;
+        background-color: rgb(183, 190, 255);
+        border-radius: 30px;
+    }
+    :link {
+        color: azure;
+    }
+    :visited {
+        color: white;
+    }
+}

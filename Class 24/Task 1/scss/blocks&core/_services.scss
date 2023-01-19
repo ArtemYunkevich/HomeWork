@@ -1,0 +1,72 @@
+.heading {
+    text-align: center;
+    font-size: 24pt;
+    margin: 30px 0px;
+}
+
+.maintext {
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+
+    p {
+        text-align: center;
+        display: inline-block;
+        width: 610px;
+        height: 94%;
+        border-radius: 30px;
+        padding: 10px 10px;
+        background: #f0e68c;
+        font-size: 11pt;
+    }
+}
+
+.services {
+    p {
+        text-align: center;
+        margin: 5px 0px 20px 0px;
+    }
+
+    div {
+        height: 230px;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+        width: calc(100% - 200px);
+        margin-left: 100px;
+        span {
+            position: relative;
+            &:nth-child(1)::before {
+                content: "";
+                background-image: url(images/ekran.jpg);
+                position: absolute;
+                width: 300px;
+                height: 200px;
+                background-size: cover;
+                top: -200px;
+                left: -100px;
+            }
+            &:nth-child(2)::before {
+                content: "";
+                background-image: url(images/micro.jpg);
+                position: absolute;
+                width: 300px;
+                height: 200px;
+                background-size: cover;
+                top: -200px;
+                left: -100px;
+            }
+            &:nth-child(3)::before {
+                content: "";
+                background-image: url(images/korpus.jpg);
+                position: absolute;
+                width: 300px;
+                height: 200px;
+                background-size: cover;
+                top: -200px;
+                left: -100px;
+            }
+        }
+    }
+
+}

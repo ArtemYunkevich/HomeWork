@@ -1,0 +1,23 @@
+.heading2 {
+    h1 {
+        text-align: center;
+        margin: 50px 0px;
+    }
+}
+.commentsbox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    div {
+        h2 {
+            margin-left: 50px;
+        }
+        img {
+            border-radius: 999px;
+            margin-left: 30px;
+        }
+        p {
+            display: inline-block;
+            padding: 20px 20px;
+        }
+    }
+}

@@ -1,0 +1,160 @@
+.dlist {
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+
+    p {
+        width: calc(100% - 600px);
+        margin-left: 310px;
+    }
+
+    .devices {
+        width: calc(100% - 600px);
+        margin-left: 300px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+
+        div {
+            height: 200px;
+
+            &:nth-child(1) {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-image: url(images/apple.png);
+                background-size: 240px;
+                background-repeat: no-repeat;
+                background-position: -5% 70%;
+
+                ul {
+                    li {
+                        position: relative;
+                        &:first-child {
+                            margin-left: 50px;
+                            font-weight: 700;
+                            font-size: 20px;
+                        }
+                        &:not(:first-child) {
+                            margin-top: 10px;
+                        }
+                        &:not(:first-child)::before {
+                            background-image: url(https://api.iconify.design/ph:device-mobile-light.svg);
+                            background-size: cover;
+                            content: "";
+                            position: absolute;
+                            height: 20px;
+                            width: 20px;
+                            left: -20px;
+                            top: -1px;
+                        }
+                    }
+                }
+            }
+            &:nth-child(2) {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-image: url(images/samsung.png);
+                background-size: 240px;
+                background-repeat: no-repeat;
+                background-position: 3% 70%;
+                ul {
+                    position: relative;
+                    left: 20px;
+                    li {
+                        position: relative;
+                        &:first-child {
+                            margin-left: 50px;
+                            font-weight: 700;
+                            font-size: 20px;
+                        }
+                        &:not(:first-child) {
+                            margin-top: 10px;
+                        }
+                        &:not(:first-child)::before {
+                            background-image: url(https://api.iconify.design/ph:device-mobile-light.svg);
+                            background-size: cover;
+                            content: "";
+                            position: absolute;
+                            height: 20px;
+                            width: 20px;
+                            left: -20px;
+                            top: -1px;
+                        }
+                    }
+                }
+            }
+            &:nth-child(3) {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-image: url(images/xiaomi.png);
+                background-size: 240px;
+                background-repeat: no-repeat;
+                background-position: -3% 70%;
+                ul {
+                    position: relative;
+                    left: -23px;
+                    li {
+                        position: relative;
+                        &:first-child {
+                            margin-left: 50px;
+                            font-weight: 700;
+                            font-size: 20px;
+                        }
+                        &:not(:first-child) {
+                            margin-top: 10px;
+                        }
+                        &:not(:first-child)::before {
+                            background-image: url(https://api.iconify.design/ph:device-mobile-light.svg);
+                            background-size: cover;
+                            content: "";
+                            position: absolute;
+                            height: 20px;
+                            width: 20px;
+                            left: -20px;
+                            top: -1px;
+                        }
+                    }
+                }
+            }
+            &:nth-child(4) {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-image: url(images/poco.png);
+                background-size: 200px;
+                background-repeat: no-repeat;
+                background-position: 7% 70%;
+                ul {
+                    position: relative;
+                    left: 10px;
+                    li {
+                        position: relative;
+                        &:first-child {
+                            margin-left: 50px;
+                            font-weight: 700;
+                            font-size: 20px;
+                        }
+                        &:not(:first-child) {
+                            margin-top: 10px;
+                        }
+                        &:not(:first-child)::before {
+                            background-image: url(https://api.iconify.design/ph:device-mobile-light.svg);
+                            background-size: cover;
+                            content: "";
+                            position: absolute;
+                            height: 20px;
+                            width: 20px;
+                            left: -20px;
+                            top: -1px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
