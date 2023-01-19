@@ -48,5 +48,5 @@
    >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2023)
 1. Занятие 24: Сайт сервис-центра по ремонту телефонов (теперь с SCSS).
    >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2024/Task%201)
-1. Занятие 27: Блок задач по JS (логические и условные выражения).
+1. Занятие 27: Блок задач по JS (логические и условные выражения). 
    >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2027/HomeWork%20Block%201)
