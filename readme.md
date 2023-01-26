@@ -50,3 +50,9 @@
    >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2024/Task%201)
 1. Занятие 27: Блок задач по JS (логические и условные выражения). 
    >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2027/HomeWork%20Block%201)
+1. Занятие 27: Блок задач по JS (циклы). 
+   >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2027/HomeWork%20Block%202)
+1. Занятие 28: Еще один блок задач по JS (циклы). 
+   >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2028)
+1. Занятие 29: Блок задач по JS (ввод в функции). 
+   >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2029)
