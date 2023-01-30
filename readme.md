@@ -56,3 +56,5 @@
    >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2028)
 1. Занятие 29: Блок задач по JS (ввод в функции). 
    >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2029)
+1. Занятие 30: Блок задач по JS (Функции, рекурсия). 
+   >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2029)
