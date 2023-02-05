@@ -60,3 +60,5 @@
    >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2029)
 1. Занятие 31-32: Блок задач по JS (16 штук). 
    >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2031-32)
+1. Занятие 33: Блок задач по JS (Массивы). 
+   >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2033)
