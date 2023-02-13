@@ -452,7 +452,7 @@
 // } while (isNaN(number1) || number1 < 0);
 
 // function words(number1) {
-//     if (((number1 % 10) == 1) && (!(number1 == 11))) {
+//     if (((number1 % 10) == 1) && (!(number1 == 11)) && (!(number1 % 100 == 11))) {
 //         console.log(number1 + " карандаш");
 //     } else if (number1 > 10 && number1 < 20) {
 //         console.log(number1 + " карандашей");
@@ -461,6 +461,8 @@
 //     } else if ((number1 % 10) >= 5 && (number1 % 10) <= 10) {
 //         console.log(number1 + " карандашей");
 //     } else if (number1 == 0) {
+//         console.log(number1 + " карандашей");
+//     } else if (number1 % 100 == 11) {
 //         console.log(number1 + " карандашей");
 //     }
 // }
