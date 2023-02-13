@@ -64,3 +64,5 @@
    >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2033)
 1. Занятие 34: Блок задач по JS (Массивы, часть 2). 
    >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2034)
+1. Занятие 35: Блок задач по JS (Объекты). 
+   >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2035)
