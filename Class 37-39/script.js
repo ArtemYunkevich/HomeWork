@@ -23,7 +23,7 @@
 // function randomizeArray(counter, min, max) {
 //     let massiv = [];
 //     for (let i = 0; i < counter; i++) {
-//         massiv[i] = Math.ceil(min + Math.random() * (max - min));
+//         massiv[i] = Math.floor(min + Math.random() * (max - min + 1));
 //     }
 //     console.log(massiv);
 // }
@@ -40,7 +40,7 @@
 //     if ((str.startsWith("https://")) && (str.endsWith(".html"))) {
 //         return true;
 //     } else return false;
-// } 
+// }
 
 // console.log(checkURL("https://dillinger.io.html"))
 
@@ -497,7 +497,7 @@
 // function randomizeArray(counter, min, max) {
 //     let massiv = [];
 //     for (let i = 0; i < counter; i++) {
-//         massiv[i] = Math.ceil(min + Math.random() * (max - min));
+//         massiv[i] = Math.floor(min + Math.random() * (max - min + 1));
 //     }
 //     console.log(massiv);
 //     return massiv;
