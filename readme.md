@@ -68,5 +68,7 @@
    >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2035)
 1. Занятие 37-39: Блок задач по JS (Встроенные возможности JS). 
    >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2037-39)
-2. Занятие 42: Задачка с банкоматом (Продвинутый JS).
+1. Занятие 42: Задачка с банкоматом (Продвинутый JS).
    >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2042)
+1. Занятие 43-45: Блок задач по JS (Продвинутый JS).
+   >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2043-45)
