@@ -72,3 +72,5 @@
    >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2042)
 1. Занятие 43-45: Блок задач по JS (Продвинутый JS).
    >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2043-45)
+1. Занятие 46-47: Блок задач по JS (Работа с DOM).
+   >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2046-47)
