@@ -74,5 +74,7 @@
    >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2043-45)
 1. Занятие 46-47: Блок задач по JS (Работа с DOM).
    >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2046-47)
-2. Занятие 48-49: Блок задач по JS (DOM: события и координаты).
+1. Занятие 48-49: Блок задач по JS (DOM: события и координаты).
    >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2048-49)
+1. Занятие 52-55: Блок задач по JS (Вводная часть по ООП).
+   >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2052-55)
