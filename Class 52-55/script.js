@@ -201,24 +201,28 @@ class User {
 }
 
 class Admin extends User {
-    constructor() {
-        super(name, password)
+    constructor(password) {
+        super(password);
+        this.name = 'Admin';
     }
-    login() {
-        super.login();
-        console.log('Админ залогинен')
+
+    login(name, password) {
+        (this.name == name && this.password == password) ? console.log('Админ залогинен') : console.log('Неверные данные для входа');
     }
-    changeName(newName) {
-        console.log('Нельзя изменить имя')
+
+    changeName() {
+        console.log('Смена имени недоступна');
     }
 }
 
-let Artem = new User({name: 'Beezy', password: '1234'});
+let Artem = new User({ name: 'Beezy', password: '1234' });
 console.log(Artem);
 console.log(Artem.login('Beezy', '1234'));
 
-let Vasya = new Admin({name: 'Beezy', password: '1234'});
-console.log(Vasya);
+let Artemiy = new Admin({ password: '1234' });
+console.log(Artemiy);
+console.log(Artemiy.changeName('Petya'));
+console.log(Artemiy.login('Admin', '1234'));
 
 
 // КОНЕЦ КОДА ЗАДАНИЯ 5 -------------------------------------------------------------------------------------------------------------------------------------------------
