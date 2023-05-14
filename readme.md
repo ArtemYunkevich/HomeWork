@@ -78,3 +78,5 @@
    >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2048-49)
 1. Занятие 52-55: Блок задач по JS (Вводная часть по ООП).
    >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2052-55)
+1. Занятие 52-55: Блок задач по JS (Взаимодействие с сервером).
+   >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2059-60)
