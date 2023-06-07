@@ -80,3 +80,5 @@
    >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2052-55)
 1. Занятие 59-60: Задача по JS (Начальное взаимодействие с сервером).
    >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2059-60)
+1. Занятие 62-63: Задача по JS: Canvas (Фракталы).
+   >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2062-63)
