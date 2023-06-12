@@ -82,3 +82,5 @@
    >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2059-60)
 1. Занятие 62-63: Задача по JS: Canvas (Фракталы).
    >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2062-63)
+1. ПРОЕКТ: игра
+   >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Game)
