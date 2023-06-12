@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="css/main-game.css">
+</head>
+<body>
+    <div class="start-window">
+        <div>
+            <input type="text" id="playerNameInput">
+            <label for="playerNameInput">Enter your name</label>
+        </div>
+        <input type="submit" id="playerNameSubmit" value="Start Game">
+    </div>
+    <div class="game-wrapper">
+        <div class="info-left">
+            <div class="score-panel">
+                <span>Score</span>
+                <div class="score-bar">
+                </div>
+            </div>  
+            <div class="record-panel">
+                <span>Record</span>
+                <div class="record-bar">
+                </div>
+            </div>
+        </div>
+        <div class="field"></div>
+        <div class="health-panel">
+            <span>Health</span>
+            <div class="health-bar">
+            </div>
+            <div class="leaderboards-panel">
+                <span>TOP-10 Results</span>
+                <div class="leaderboards-container">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="./node_modules/tone/build/Tone.js"></script>
+    <script src="main-game.js" type="module"></script>
+</body>
+</html>

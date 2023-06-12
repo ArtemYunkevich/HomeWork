@@ -37,6 +37,8 @@ window.addEventListener('load', () => {
     let maxItersRangeContainer = document.querySelector('.max-iters-container');
     let scaleFactorRangeContainer = document.querySelector('.scale-factor-container');
     let branchesRangeContainer = document.querySelector('.branches-container');
+    let lineSizeRangeContainer = document.querySelector('.line-size-container');
+    let rotateFactorRangeContainer = document.querySelector('.rotate-factor-container');
 
     //
 
@@ -56,7 +58,7 @@ window.addEventListener('load', () => {
 
     let maxItersRangeOutput = document.createElement('output');
     maxItersRangeOutput.setAttribute('id', 'maxItersOutput');
-    maxItersRange.textContent = maxItersRange.value;
+    maxItersRangeOutput.textContent = maxItersRange.value;
     maxItersRangeContainer.appendChild(maxItersRangeOutput);
 
     //
@@ -68,8 +70,8 @@ window.addEventListener('load', () => {
     scaleFactorRange.setAttribute('max', '0.7');
     scaleFactorRange.setAttribute('step', '0.1');
     scaleFactorRange.setAttribute('value', '-0.7');
-
     scaleFactorRangeContainer.appendChild(scaleFactorRange);
+
     let scaleFactorRangeLabel = document.createElement('label');
     scaleFactorRangeLabel.setAttribute('for', 'scaleFactor');
     scaleFactorRangeLabel.innerText = 'Scale chosen: '
@@ -77,7 +79,7 @@ window.addEventListener('load', () => {
 
     let scaleFactorRangeOutput = document.createElement('output');
     scaleFactorRangeOutput.setAttribute('id', 'scaleFactorOutput');
-    scaleFactorRange.textContent = scaleFactorRange.value;
+    scaleFactorRangeOutput.textContent = scaleFactorRange.value;
     scaleFactorRangeContainer.appendChild(scaleFactorRangeOutput);
 
     //
@@ -89,8 +91,8 @@ window.addEventListener('load', () => {
     branchesRange.setAttribute('max', '20');
     branchesRange.setAttribute('step', '1');
     branchesRange.setAttribute('value', '1');
-
     branchesRangeContainer.appendChild(branchesRange);
+
     let branchesRangeLabel = document.createElement('label');
     branchesRangeLabel.setAttribute('for', 'branches');
     branchesRangeLabel.innerText = 'Branches chosen: '
@@ -98,8 +100,52 @@ window.addEventListener('load', () => {
 
     let branchesRangeOutput = document.createElement('output');
     branchesRangeOutput.setAttribute('id', 'branchesRangeOutput');
-    branchesRange.textContent = branchesRange.value;
+    branchesRangeOutput.textContent = branchesRange.value;
     branchesRangeContainer.appendChild(branchesRangeOutput);
+
+    //
+
+    let lineSizeRange = document.createElement('input');
+    lineSizeRange.setAttribute('type', 'range');
+    lineSizeRange.setAttribute('id', 'lineSize');
+    lineSizeRange.setAttribute('min', '50');
+    lineSizeRange.setAttribute('max', '400');
+    lineSizeRange.setAttribute('step', '1');
+    lineSizeRange.setAttribute('value', '200');
+    lineSizeRangeContainer.appendChild(lineSizeRange);
+
+    let lineSizeRangeLabel = document.createElement('label');
+    lineSizeRangeLabel.setAttribute('for', 'lineSize');
+    lineSizeRangeLabel.innerText = 'Line size chosen: '
+    lineSizeRangeContainer.appendChild(lineSizeRangeLabel);
+
+    let lineSizeRangeOutput = document.createElement('output');
+    lineSizeRangeOutput.setAttribute('id', 'lineSizeRangeOutput');
+    lineSizeRangeOutput.textContent = lineSizeRange.value;
+    lineSizeRangeContainer.appendChild(lineSizeRangeOutput);
+
+    //
+
+    let rotateFactorRange = document.createElement('input');
+    rotateFactorRange.setAttribute('type', 'range');
+    rotateFactorRange.setAttribute('id', 'rotateFactor');
+    rotateFactorRange.setAttribute('min', '0');
+    rotateFactorRange.setAttribute('max', '3.15');
+    rotateFactorRange.setAttribute('step', '0.01');
+    rotateFactorRange.setAttribute('value', '0.25');
+    rotateFactorRangeContainer.appendChild(rotateFactorRange);
+
+    let rotateFactorRangeLabel = document.createElement('label');
+    rotateFactorRangeLabel.setAttribute('for', 'rotateFactor');
+    rotateFactorRangeLabel.innerText = 'Rotate factor chosen: '
+    rotateFactorRangeContainer.appendChild(rotateFactorRangeLabel);
+
+    let rotateFactorRangeOutput = document.createElement('output');
+    rotateFactorRangeOutput.setAttribute('id', 'rotateFactorRangeOutput');
+    rotateFactorRangeOutput.textContent = rotateFactorRange.value;
+    rotateFactorRangeContainer.appendChild(rotateFactorRangeOutput);
+
+    //
 
     let randomizeAllValues = document.createElement('input');
     randomizeAllValues.setAttribute('type', 'button');
@@ -171,7 +217,6 @@ window.addEventListener('load', () => {
 
     maxItersRange.addEventListener('change', (event) => {
         ctx.reset();
-        // ctx.clearRect(0, 0, canvas.width, canvas.height);
         getDefaultSetup();
         maxIters = event.target.value;
         drawComplexFigure();
@@ -184,7 +229,6 @@ window.addEventListener('load', () => {
 
     scaleFactorRange.addEventListener('change', (event) => {
         ctx.reset();
-        // ctx.clearRect(0, 0, canvas.width, canvas.height);
         getDefaultSetup();
         scaleFactor = event.target.value;
         drawComplexFigure();
@@ -197,9 +241,32 @@ window.addEventListener('load', () => {
 
     branchesRange.addEventListener('change', (event) => {
         ctx.reset();
-        // ctx.clearRect(0, 0, canvas.width, canvas.height);
         getDefaultSetup();
         branches = event.target.value;
+        drawComplexFigure();
+    })
+
+    lineSizeRange.addEventListener('input', (event) => {
+        lineSizeRangeOutput.textContent = event.target.value;
+        lineSize = event.target.value;
+    })
+
+    lineSizeRange.addEventListener('change', (event) => {
+        ctx.reset();
+        getDefaultSetup();
+        lineSize = event.target.value;
+        drawComplexFigure();
+    })
+
+    rotateFactorRange.addEventListener('input', (event) => {
+        rotateFactorRangeOutput.textContent = event.target.value;
+        rotateFactor = event.target.value;
+    })
+
+    rotateFactorRange.addEventListener('change', (event) => {
+        ctx.reset();
+        getDefaultSetup();
+        rotateFactor = event.target.value;
         drawComplexFigure();
     })
 
@@ -207,14 +274,30 @@ window.addEventListener('load', () => {
 
     randomizeAllValues.addEventListener('click', () => {
         ctx.reset();
-        // ctx.clearRect(0, 0, canvas.width, canvas.height);
         getDefaultSetup();
+
         maxIters = Math.trunc(Math.random() * 5);
+        maxItersRange.setAttribute('value', maxIters);
+        maxItersRangeOutput.textContent = maxIters;
+
         lineSize = Math.trunc(Math.random() * 400);
+        lineSizeRange.setAttribute('value', lineSize);
+        lineSizeRangeOutput.textContent = lineSize;
+
         branches = Math.trunc(Math.random() * 20 + 1);
+        branchesRange.setAttribute('value', branches);
+        branchesRangeOutput.textContent = branches;
+
         scaleFactor = ((Math.random() * 14 - 7) / 10);
+        scaleFactorRange.setAttribute('value', scaleFactor);
+        scaleFactorRangeOutput.textContent = Math.trunc(scaleFactor * 10) / 10;
+
         rotateFactor = Math.PI * Math.random();
-        console.log(rotateFactor)
+        rotateFactorRange.setAttribute('value', rotateFactor);
+        rotateFactorRangeOutput.textContent = Math.trunc(rotateFactor * 100) / 100;
+
+        ctx.strokeStyle = `rgb(${Math.random() * 255}, ${Math.random() * 255}, ${Math.random() * 255})`;
+
         drawComplexFigure();
     })
 })
