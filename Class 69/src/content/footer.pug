@@ -1,0 +1,56 @@
+- let menu1items= ['О компании', "Новости", "Вакансии", " Политика конфиденциальности"];
+- let menu2items= ['Точки выдачи', "Скидки", "Бонусные программы"];
+- let menu3items= ['Вопрос-ответ', "Правила аренды", "Доставка", "Оплата"];
+- let contactitems= ['Fotoprokat24', "г.Москва, Проспект мира, дом 12", "Пн - Вс 9:00 - 21:00", "+7 (999) 999-99-99"];
+
+
+doctype html
+html(lang= 'ru')
+    head
+        meta(charset='utf-8')
+        title= 'Быстрый запуск Webpack'
+    body
+        footer
+            .footer-wrapper
+                .footer-upperblock
+                    .footer-signin-logo
+                        img.logo-posticon(src=require('../images/post-icon.svg'), alt='Здесь должен быть значок конверта')
+                        span Подпишитесь <br> на новости и акции
+                    form.footer-form
+                        input.footer-email-input(type="email" placeholder='Введите e-mail')
+                        input.footer-submit(type="submit" value='ПОДПИСАТЬСЯ')
+                    .footer-phone-logo 
+                        img.logo-phonecall(src=require('../images/phone-call.svg'), alt='Здесь должен быть значок телефона')
+                        span Заказать звонок
+                .footer-lowerblock
+                    .footer-infoblock
+                        img.logo-image(src=require('../images/logo.svg'), alt='Здесь должен быть логотип')
+                        p самый удобный в Москве сервис аренды фото-, видео- и кинотехники
+                        p &copy 2015-2019 Fotoprokat24
+                        div Здесь должны быть иконки
+                    .footer-menu
+                        div
+                            span Компания
+                            ul
+                                each value in menu1items
+                                    li 
+                                        a(href= '#') #{value}
+                        div
+                            span Клиентам
+                            ul
+                                each value in menu2items
+                                    li 
+                                        a(href= '#') #{value}
+                        div
+                            span Помощь
+                            ul
+                                each value in menu2items
+                                    li 
+                                        a(href= '#') #{value}
+                    .footer-contacts
+                        .footer-contacts-list
+                            span Контакты
+                            ul
+                                each value in contactitems
+                                    li #{value}
+                        .footer-contacts-icons Здесь тоже должны быть иконки

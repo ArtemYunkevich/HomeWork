@@ -1,0 +1,29 @@
+doctype html
+html(lang= 'ru')
+    head
+        meta(charset='utf-8')
+        title= 'Быстрый запуск Webpack'
+    body
+        main
+            .signblock-wrapper
+                .signblock-header
+                    div
+                        span Главная / Регистрация
+                        h1 Регистрация
+                form.signblock-form(action="http://activepads.com:8082/formDetector")
+                    .signblock-form-inputs
+                        input(type="text" placeholder='Фамилия' name='surname')
+                        input(type="text" placeholder='Имя' name='name')
+                        input(type="text" placeholder='Отчество' name='middle name')
+                        input(type="text" placeholder='Предыдущая фамилия (если менялась)' name='previous_surname')
+                        input(type="date" placeholder='Дата рождения' name='birth_date')
+                        input(type="email" placeholder='E-mail' name='email')
+                        input(type="text" placeholder='Мобильный' name='mobile_phone')
+                        input(type="text" placeholder='Доп. телефон' name='extra_phone')
+                    .signblock-form-warning
+                        p Для снижения суммы залога или возможности арендовать технику без залога укажите ваши паспортные данные
+                        span Внимание!
+                    .signblock-form-submit
+                        input(type="button" value='ПРОДОЛЖИТЬ РЕГИСТРАЦИЮ')
+                        input(type="submit" value='ЗАВЕРШИТЬ РЕГИСТРАЦИЮ')
+                    

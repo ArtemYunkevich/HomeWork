@@ -1,0 +1,44 @@
+- let sidebarmenuitems= ['Все', "Фотокамеры", "Линзы", "Телефоны", "Деньги", "Путешествия", "Жилье"];
+
+
+doctype html
+html(lang= 'ru')
+    head
+        meta(charset='utf-8')
+        title= 'Быстрый запуск Webpack'
+    body
+        main
+            .newsblock-wrapper
+                .newsblock-header
+                    div
+                        span Главная / Новости компании
+                        h1 <span>Новости</span> компании
+                    div
+                        span RSS-Рассылка
+                        img.logo-signal(src=require('../images/signal.svg'), alt='Здесь должен быть логотип')
+
+                .newsblock-news
+                    div(class= 'news1 news')
+                        div
+                            img.photo1(src=require('../images/photo1.png'), alt='Здесь сидит фотка')
+                        span 6 июня 2019
+                        span Выбираем SD-карты для съемки
+                        p Раз в год среди пользователей сайта проводят опрос, который позволяет составить портрет среднестатистического пользователя сайта, во многом совпадающий с образом.
+                        span 40 комментариев
+                    div(class= 'news2 news')
+                        div
+                            img.photo2(src=require('../images/photo2.png'), alt='Здесь сидит фотка')
+                        span 30 мая 2019
+                        span Подкаст LAM: Безнадёжность, смерть, обман и фильм
+                        p Каждый день сайт Stack Overflow, популярную систему вопросов и ответов, которая есть в закладках у многих программистов, посещают около 32 млн человек.
+                        span 162 комментария
+                .newsblock-links
+                    .sidebar-menu
+                        ul
+                            each value in sidebarmenuitems
+                                li 
+                                    a(href= '#') #{value}
+                    .sidebar-popularitems
+                        span Популярные товары
+                        div Тут должен быть какой-то популярный товар
+                        div Тут должен быть какой-то популярный товар

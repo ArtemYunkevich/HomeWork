@@ -1,0 +1,18 @@
+- let menuItems = {'КАТАЛОГ' : 'https://www.onliner.by/', 'О КОМПАНИИ' : 'https://www.onliner.by/', 'ПРАВИЛА' : 'https://www.onliner.by/', 'НОВОСТИ' : './index.html', 'КОНТАКТЫ' : './contacts.html', 'ВОЙТИ' : './signup.html'}
+
+doctype html
+html(lang= 'ru')
+    head
+        meta(charset='utf-8')
+        title= 'Быстрый запуск Webpack'
+    body
+        header
+            .header-logo
+                img.logo-image(src=require('../images/logo.svg'), alt='Здесь должен быть логотип')
+            nav(class = 'header-menu')
+                ul
+                    each value, index in menuItems
+                        li 
+                            a(href= value) #{index}
+
+            .header-icons Тут должны быть иконки

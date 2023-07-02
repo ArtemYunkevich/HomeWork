@@ -1,0 +1,84 @@
+.contactsblock-wrapper {
+    height: 840px;
+    width: 82%;
+    margin-left: auto;
+    margin-right: auto;
+
+    .contactsblock-header {
+        height: 150px;
+        padding: 0px 0px 20px 0px;
+
+        >:nth-child(1) {
+            height: 90px;
+            width: 280px;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            margin-top: 30px;
+
+            :nth-child(1) {
+                font-size: 14px;
+                font-weight: 400;
+                color: #75758A;
+            }
+            :nth-child(2) {
+                font-size: 30px;
+                font-weight: 700;
+                text-transform: uppercase;
+
+                span {
+                    font-size: 30px;
+                    font-weight: 700;
+                    color: rgba(142, 233, 1, 1);
+                }
+            }
+        }
+    }
+    .contactsblock-deliveryinfo {
+        height: 150px;
+        display: flex;
+
+
+        div {
+            width: 174px;
+            height: 120px;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+                        
+            &:not(:first-of-type) {
+                margin-left: 100px;
+            }
+
+            :nth-child(1) {
+                font-weight: 700;
+                font-size: 16px;
+                margin-top: 20px;
+            }
+
+            :nth-child(2) {
+                font-weight: 400;
+                font-size: 14px;
+                color: rgba(117, 117, 138, 1);
+            }
+
+            :nth-child(3) {
+                font-weight: 400;
+                font-size: 14px;
+                color: rgba(96, 176, 33, 1);
+            }
+
+        }
+    }
+
+    .contactsblock-mapcontainer {
+        height: 500px;
+
+        iframe {
+            width: 90%;
+            height: 100%;
+        }
+    }
+}
