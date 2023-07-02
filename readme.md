@@ -90,3 +90,5 @@
    >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2062-63)
 1. Занятие 67: Практика по Drag'n'Drop.
    >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2067)
+1. Занятие 69: Практика по Webpack (проект по Figma).
+   >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2069)
