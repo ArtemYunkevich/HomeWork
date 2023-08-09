@@ -92,3 +92,5 @@
    >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2067)
 1. Занятие 69: Практика по Webpack (проект по Figma).
    >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2069)
+1. Занятие 75-76: Практика по промисам.
+   >[Link:](https://github.com/ArtemYunkevich/HomeWork/tree/master/Class%2075-76)
